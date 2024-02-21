@@ -74,12 +74,12 @@ module.exports = {
   ownernumber: process.env.Owner_Number || "94740637622",
   instagramId: process.env.Insta || "8.08_only_mine",
   warns: process.env.Warns_Limits || 3,
-  mongoUrl: process.env.MongoDB || "1d2009e7-9e35-4e5b-8152-af82b003f7d5",
+  mongoUrl: process.env.MongoDB || "mongodb://atlas-sql-65d58d52a4b4f15a7361f354-8icem.a.query.mongodb.net/myVirtualDatabase?ssl=true&authSource=admin",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
-  sessionId: process.env.SESSION_ID || "Q1FwR1NUd1EjcUV2T0liaGRBeXdsZ_Queen-Anya_nA4UFFhZ_Queen-Anya_0xlRlNvTGFQOG05Y0VsejVtelFGRlFsOA==", 
+  sessionId: process.env.SESSION_ID || "YUlZRENRelIjS1pPaTdXQnBPaDBKW_Queen-Anya_ndTS1BlW_Queen-Anya_FJDTjRCOFg0SkRKVG9Ia0NhUFU4Q2NHTQ==", 
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
   image_3: readFileSync("./lib/Assets/image_3.jpg"), // Thumbnail for Dashboard
